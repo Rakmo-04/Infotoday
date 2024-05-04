@@ -75,7 +75,7 @@ export default class News extends Component {
     console.log("render")
     return (
       <div className='container my-5'>
-        <h1>NewsMonkey - Top Headlines</h1>
+        <h1>InfoToday - Top Headlines</h1>
         
         <div className='row'>
         {this.state.articles && this.state.articles.map((element)=>{
